@@ -47,10 +47,10 @@ switch(command) {
 case prefix+'help': case prefix+'menu':
 m.reply(`*WHATSAPP BOT*
 
-No Owner : https://wa.me/message/4QGPG3UPJEUUC1
-Author : @xnoob_ganz
+No Owner : https://wa.me/994404819287
+Instagram : @xnoob_ganz
 lib : Baileys
-Battery : ${caliph.battery ? caliph.battery.value +'%' : 'Belum kedetect'} ${caliph.battery ? caliph.battery.live ? '🔌 Charging...' : '⚡ Discharging' : ''}
+Battery : ${caliph.battery ? caliph.battery.value +'%' : 'Belum kedetect'} ${caliph.battery ? caliph.battery.live ? '🔌 Charging...' : '🔋 Discharging' : ''}
 
 Group Menu
 - ${prefix}kick @tag/reply message
@@ -271,7 +271,7 @@ m.reply(util.format(e))
 break
 case prefix+'sc': 
 case prefix+'script':
-m.reply(`Bot ini menggunakan script :\nhttps://github.com/PinoRecode/Bot-Wa`)
+m.reply(`Mau Sc Nya? Chat Owner, Nomer Owner Ada Di Bagian Menu.`)
 break
 case prefix+'kick': 
 if (!m.isGroup) return m.reply('Perintah ini khusus didalam grup!')
