@@ -24,7 +24,7 @@ global.APIs = { // API Prefix
   clph: 'https://recoders-area.caliph.repl.co',
   rikka: 'https://rikka-api.xyz',
   nrtm: 'https://nurutomo.herokuapp.com',
-  recodeteam: 'https://api-recodeteam.herokuapp.com'
+  recodeteam: 'https://api-recodeteam.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
   lol: 'https://api.lolhuman.xyz',
   vh: 'http://api.vhtear.com',
@@ -35,8 +35,7 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey Here
    'http://api.vhtear.com': 'apivinz',
    'https://api.lolhuman.xyz': '9dff22db324aa3e93a246025',
-  'https://api.xteam.xyz': 'fdee5076652c3407'
-,
+  'https://api.xteam.xyz': 'fdee5076652c3407',
   'https://api-recodeteam.herokuapp.com': 'RecodeTeam',
   'https://api.zeks.me': 'rikkabotwa',
   'https://rikka-api.xyz': 'beta',
