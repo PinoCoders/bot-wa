@@ -45,67 +45,68 @@ if (isCmd && m.isGroup) {console.log(color('[EXEC]', 'cyan'), color(moment(m.mes
 let text = q = args.join(' ')
 switch(command) {
 case prefix+'help': case prefix+'menu':
-m.reply(`*WHATSAPP BOT*
-
-No Owner : https://wa.me/994404819287
-Instagram : @xnoob_ganz
-lib : Baileys
-Battery : ${caliph.battery ? caliph.battery.value +'%' : 'Belum kedetect'} ${caliph.battery ? caliph.battery.live ? '🔌 Charging...' : '🔋 Discharging' : ''}
-
-Group Menu
-- ${prefix}kick @tag/reply message
-- ${prefix}add 628×××××/reply message
-- ${prefix}demote @tag/reply message
-- ${prefix}antidelete enable/disable
-- ${prefix}welcome enable/disable
-- ${prefix}left enable/disable
-- ${prefix}promote @tag/reply message
-- ${prefix}hidetag text
-- ${prefix}linkgroup 
-
-Owner Menu
-- ${prefix}block @tag/reply message
-- ${prefix}unblock @tag/reply message
-- ${prefix}setname text
-- ${prefix}setbio text
-- ${prefix}join linkgroup
-- > JavaScript Code
-- => JavaScript Code
-
-Other Menu
-- ${prefix}toimg (reply sticker)
-- ${prefix}tahta (teks)
-- ${prefix}tahta2 (teks)
-- ${prefix}ttp (teks)
-- ${prefix}attp (teks)
-- ${prefix}attp2 (teks)
-- ${prefix}attp3 (teks)
-- ${prefix}sticker (reply image/video)
-
-Search Menu
-- ${prefix}pinterest (query)
-- ${prefix}wiki (query)
-- ${prefix}playvid (query)
-- ${prefix}play (query)
-
-Education Menu
-- ${prefix}brainly (pertanyaan)
-- ${prefix}wiki (query)
-- ${prefix}wikipedia (query)
-
-Convert Menu 
-- ${prefix}tomp3 (Reply/Kirim Video)
-- ${prefix}toimg (Reply Sticker)
-- ${prefix}togif (Reply Sticker GIF)
-- ${prefix}tovideo (Reply Sticker GIF)
-
-Random Menu 
-- ${prefix}ppcouple
-- ${prefix}katabijak
-- ${prefix}dare
-- ${prefix}truth
-- ${prefix}dadu 
-- ${prefix}lolivid
+m.reply(`╭─「*WHATSAPP BOT*」
+║╭─────  
+║├「 No Owner : https://wa.me/994404819287 」
+║│Instagram : @xnoob_ganz
+║│lib : Baileys
+║│Battery : ${caliph.battery ? caliph.battery.value +'%' : 'Belum kedetect'} ${caliph.battery ? caliph.battery.live ? '🔌 Charging...' : '🔋 Discharging' : ''}
+║╰───────
+╠「Group Menu」
+╠ ${prefix}kick @tag/reply message
+╠ ${prefix}add 628×××××/reply message
+╠ ${prefix}demote @tag/reply message
+╠ ${prefix}antidelete enable/disable
+╠ ${prefix}welcome enable/disable
+╠ ${prefix}left enable/disable
+╠ ${prefix}promote @tag/reply message
+╠ ${prefix}hidetag text
+╠ ${prefix}linkgroup 
+╰─
+╭─「Owner Menu」
+╠ ${prefix}block @tag/reply message
+╠ ${prefix}unblock @tag/reply message
+╠ ${prefix}setname (text)
+╠ ${prefix}setbio (text)
+╠ ${prefix}join linkgroup
+╠ > JavaScript Code
+╠ => JavaScript Code
+╰─
+╭─「Other Menu」
+╠ ${prefix}toimg (reply sticker)
+╠ ${prefix}tahta (teks)
+╠ ${prefix}tahta2 (teks)
+╠ ${prefix}ttp (teks)
+╠ ${prefix}attp (teks)
+╠ ${prefix}attp2 (teks)
+╠ ${prefix}attp3 (teks)
+╠ ${prefix}sticker (reply image/video)
+╰─
+╭─「Search Menu」
+╠ ${prefix}pinterest (query)
+╠ ${prefix}wiki (query)
+╠ ${prefix}playvid (query)
+╠ ${prefix}play (query)
+╰─
+╭─「Education Menu」
+╠ ${prefix}brainly (pertanyaan)
+╠ ${prefix}wiki (query)
+╠ ${prefix}wikipedia (query)
+╰─
+╭─「Convert Menu」
+╠ ${prefix}tomp3 (Reply/Kirim Video)
+╠ ${prefix}toimg (Reply Sticker)
+╠ ${prefix}togif (Reply Sticker GIF)
+╠ ${prefix}tovideo (Reply Sticker GIF)
+╰─
+╭─「Random Menu」
+╠ ${prefix}ppcouple
+╠ ${prefix}katabijak
+╠ ${prefix}dare
+╠ ${prefix}truth
+╠ ${prefix}dadu 
+╠ ${prefix}lolivid
+╰─
 `.trim())
 break
 case prefix+'lolivid':
