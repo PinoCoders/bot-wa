@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Pino&repo=bot-wa&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=PinoCoders&repo=bot-wa&theme=tokyonight" />
 </p>
 <p align="center">
 <a href="https://github.com/PinoRecode"><img src="https://img.shields.io/badge/Author-PINO-red.svg?style=for-the-badge&logo=github"/><a/>
