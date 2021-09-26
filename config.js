@@ -13,7 +13,7 @@ success: 'Sukses...'
 }
 global.server = true
 global.prefix = '#'
-global.author = '@xnoob_ganz'
+global.author = 'IG: @xnoob_ganz'
 global.packname = 'NAHOYA BOT'
 
 
@@ -26,6 +26,7 @@ global.APIs = { // API Prefix
   nrtm: 'https://nurutomo.herokuapp.com',
   recodeteam: 'https://api-recodeteam.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com',
   lol: 'https://api.lolhuman.xyz',
   vh: 'http://api.vhtear.com',
   zeks: 'https://api.zeks.me',
@@ -33,13 +34,14 @@ global.APIs = { // API Prefix
 }
 
 global.APIKeys = { // APIKey Here
-   'http://api.vhtear.com': 'apivinz',
-   'https://api.lolhuman.xyz': '9dff22db324aa3e93a246025',
+  'http://api.vhtear.com': 'apivinz',
+  'https://api.lolhuman.xyz': '9dff22db324aa3e93a246025',
   'https://api.xteam.xyz': 'fdee5076652c3407',
+  'https://leyscoders-api.herokuapp.com': 'MIMINGANZ',
   'https://api-recodeteam.herokuapp.com': 'RecodeTeam',
   'https://api.zeks.me': 'rikkabotwa',
   'https://rikka-api.xyz': 'beta',
-   'https://api.caliph71.xyz': 'beta'
+  'https://api.caliph71.xyz': 'beta'
 }
 
 let fs = require('fs')
