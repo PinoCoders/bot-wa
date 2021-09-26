@@ -11,10 +11,10 @@ demote: '@user Sekarang bukan admin!'
 error : 'Terjadi Kesalahan',
 success: 'Sukses...'
 }
-global.server = false
+global.server = true
 global.prefix = '#'
 global.author = '@xnoob_ganz'
-global.packname = 'WhatsApp Bot'
+global.packname = 'NAHOYA BOT'
 
 
 // LIST APIKEY
