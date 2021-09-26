@@ -47,8 +47,8 @@ switch(command) {
 case prefix+'help': case prefix+'menu':
 m.reply(`*WHATSAPP BOT*
 
-Source code : https://api-recodeteam.herokuapp.com
-Author : @RecodeTeam
+No Owner : https://wa.me/message/4QGPG3UPJEUUC1
+Author : @xnoob_ganz
 lib : Baileys
 Battery : ${caliph.battery ? caliph.battery.value +'%' : 'Belum kedetect'} ${caliph.battery ? caliph.battery.live ? '🔌 Charging...' : '⚡ Discharging' : ''}
 
@@ -134,7 +134,7 @@ m.reply('Speed : '+String(new Date - old) + 'ms')
 break
 case prefix+'ppcouple': 
 m.reply('Mohon tunggu sebentar...')
-data = await getJson(global.API('caliphAPI', '/couple', null, 'apikey'))
+data = await getJson(global.API('LeysCoder', '/api/couple', null, 'apikey'))
 caliph.sendMessage(m.chat, { url: data.result.male }, 'imageMessage', { quoted: m })
 caliph.sendMessage(m.chat, { url: data.result.female }, 'imageMessage', { quoted: m })
 break
