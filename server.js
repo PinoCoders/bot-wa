@@ -24,9 +24,9 @@ function connect(conn) {
          youtube: 'https://youtube.com/c/PINOMODZ',
          website: 'https://api-recodeteam.herokuapp.com'
 },
-        source_code: 'https://github.com/caliph71/bot-wa'
+        source_code: 'https://github.com/PinoCoders/bot-wa'
 })
-    } else res.redirect("https://github.com/caliph71/bot-wa")
+    } else res.redirect("https://github.com/PinoCoders/bot-wa")
     })
     
  app.listen(PORT, () => console.log('App listened on port', PORT))
