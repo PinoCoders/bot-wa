@@ -108,7 +108,6 @@ m.reply(`╭─「*WHATSAPP BOT*」
 ╠ ${prefix}dare
 ╠ ${prefix}truth
 ╠ ${prefix}dadu 
-╠ ${prefix}asupan
 ╠ ${prefix}lolivid
 ╰─
 `.trim())
@@ -121,7 +120,7 @@ caliph.sendMessage(m.chat, { url }, mType.video, { quoted: m })
 break
 case prefix+'asupan':
 m.reply(`_*Tunggu permintaan anda sedang diproses..*_`)
-var { result: url } = (await fetchJson(global.API('recodeteam', '/api/asupan', {}, 'apikey'))).data
+var { result: url } = (await fetchJson.get(global.API('recodeteam', '/api/asupan', {}, 'apikey'))).data
 caliph.sendMessage(m.chat, { url }, mType.video, { quoted: m })
 break
 case prefix+'tomp3':
