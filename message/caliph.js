@@ -7,6 +7,7 @@ let util = require('util')
 let fs = require('fs')
 let chalk = require('chalk')
 let getBuffer = require('../lib/fetcher').buffer
+let fetchJson = require('../lib/fetcher').json
 let getJson = require('../lib/fetcher').json
 let getText = require('../lib/fetcher').text
 let tahta = require('../lib/tahta')
