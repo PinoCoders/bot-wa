@@ -120,7 +120,7 @@ caliph.sendMessage(m.chat, { url }, mType.video, { quoted: m })
 break
 case prefix+'asupan':
 m.reply(`_*Tunggu permintaan anda sedang diproses..*_`)
-var { result: url } = (await axios.get(global.API('recodeteam', '/api/asupan', {}, 'apikey'))).data
+var { result: url } = (await fetchJson.get(global.API('recodeteam', '/api/asupan', {}, 'apikey'))).data
 caliph.sendMessage(m.chat, { url }, mType.video, { quoted: m })
 break
 case prefix+'tomp3':
