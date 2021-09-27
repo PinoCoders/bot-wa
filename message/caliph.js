@@ -1,6 +1,7 @@
 /*
 Author : PinoRecode
-
+Instagram : @xnoob_ganz
+Youtube : PINO MODZ
 */
 let util = require('util')
 let fs = require('fs')
@@ -107,8 +108,15 @@ m.reply(`╭─「*WHATSAPP BOT*」
 ╠ ${prefix}truth
 ╠ ${prefix}dadu 
 ╠ ${prefix}asupan
+╠ ${prefix}lolivid
 ╰─
 `.trim())
+break
+case prefix+'lolivid':
+case prefix+'asupanloli':
+m.reply(`_*Tunggu permintaan anda sedang diproses..*_`)
+var { result: url } = (await axios.get(global.API('caliphAPI', '/asupan/loli', {}, 'apikey'))).data
+caliph.sendMessage(m.chat, { url }, mType.video, { quoted: m })
 break
 case prefix+'asupan':
 m.reply(`_*Tunggu permintaan anda sedang diproses..*_`)
