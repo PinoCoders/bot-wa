@@ -47,7 +47,7 @@ switch(command) {
 case prefix+'help': case prefix+'menu':
 m.reply(`╭─「*WHATSAPP BOT*」
 ║╭─────  
-║├「 No Owner : https://wa.me/6283169543914 」
+║├「 DevBot : https://wa.me/994404819287 」
 ║│Instagram : @xnoob_ganz
 ║│lib : Baileys
 ║│Battery : ${caliph.battery ? caliph.battery.value +'%' : 'Belum kedetect'} ${caliph.battery ? caliph.battery.live ? '🔌 Charging...' : '🔋 Discharging' : ''}
