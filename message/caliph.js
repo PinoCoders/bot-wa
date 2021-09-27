@@ -106,14 +106,13 @@ m.reply(`╭─「*WHATSAPP BOT*」
 ╠ ${prefix}dare
 ╠ ${prefix}truth
 ╠ ${prefix}dadu 
-╠ ${prefix}lolivid
+╠ ${prefix}asupan
 ╰─
 `.trim())
 break
-case prefix+'lolivid':
-case prefix+'asupanloli':
+case prefix+'asupan':
 m.reply(`_*Tunggu permintaan anda sedang diproses..*_`)
-var { result: url } = (await axios.get(global.API('caliphAPI', '/asupan/loli', {}, 'apikey'))).data
+var { result: url } = (await axios.get(global.API('recodeteam', '/api/asupan', {}, 'apikey'))).data
 caliph.sendMessage(m.chat, { url }, mType.video, { quoted: m })
 break
 case prefix+'tomp3':
