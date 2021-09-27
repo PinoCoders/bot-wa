@@ -1,4 +1,4 @@
-global.owner = ['994404819287']
+global.owner = ['6283169543914']
 global.autoread = true
 global.selfmode = false
 global.mess = {
